@@ -18,7 +18,11 @@ describe('the palindrome canary spec', () => {
 		it('false for whitespace', () => {
 			expect(isPalindrome('    ')).toEqual(false);
 		});
-		it.todo('error for empty string');
+		it('error for empty string', () => {
+			expect(() => {
+				isPalindrome('');
+			}).toThrow('empty string are not palindromes');
+		});
 		it.todo('error for not a string');
 	});
 });
