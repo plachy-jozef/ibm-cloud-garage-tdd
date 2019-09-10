@@ -5,7 +5,7 @@ describe('the canary spec', () => {
     expect(true).toBe(true);
   });
 
-	describe.only('fahrenheit2celsius', () => {
+	describe('fahrenheit2celsius', () => {
 		it ('fahrenheit2celsius of 32 is 0', () => {
 			expect(fahrenheit2celsius(32)).toEqual(0);
 		});
