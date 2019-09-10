@@ -1,4 +1,4 @@
-let fahrenheit2celsius = () => 0;
+let fahrenheit2celsius = (fahr) => (fahr - 32) * 5/9;
 
 describe('the canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -10,7 +10,7 @@ describe('the canary spec', () => {
 			expect(fahrenheit2celsius(32)).toEqual(0);
 		});
 		it ('fahrenheit2celsius of 212 is 100', () => {
-			
+			expect(fahrenheit2celsius(212)).toEqual(100);
 		});
 		it ('fahrenheit2celsius of 50 is 0', () => {
 			
