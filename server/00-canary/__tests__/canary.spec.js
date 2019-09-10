@@ -1,3 +1,5 @@
+let fahrenheit2celsius = () => 0;
+
 describe('the canary spec', () => {
   it('shows the infrastructure works', () => {
     expect(true).toBe(true);
@@ -5,7 +7,7 @@ describe('the canary spec', () => {
 
 	describe.only('fahrenheit2celsius', () => {
 		it ('fahrenheit2celsius of 32 is 0', () => {
-
+			expect(fahrenheit2celsius(32)).toEqual(0);
 		});
 		it ('fahrenheit2celsius of 212 is 100', () => {
 			
