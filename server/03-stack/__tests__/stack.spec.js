@@ -10,6 +10,20 @@ describe('a stack', () => {
   it('starts empty', () => {
 		expect(findePrimeFactors(1)).toEqual([]);
 	});
+	it('return none for 1', () => {
+		expect(findePrimeFactors(1)).toEqual([]);
+	});
+	it('return 2 for 2', () => {
+		expect(findePrimeFactors(2)).toEqual([2]);
+	});
+	it.todo('return 3 for 3');
+	it.todo('return 2, 2 for 4');
+	it.todo('return 5 for 5');
+	it.todo('return 2, 3 for 6');
+	it.todo('return 7 for 7');
+	it.todo('return 2, 2, 2 for 8');
+	it.todo('return 3, 3 for 9');
+
   it.todo('starts with stack size of 0');
   it.todo('is not empty when pushed');
   it.todo('stack size is 1 when pushed');
