@@ -22,10 +22,18 @@ describe('a stack', () => {
 	it('return 2, 2 for 4', () => {
 		expect(findePrimeFactors(4)).toEqual([2, 2]);
 	});
-	it.todo('return 5 for 5');
-	it.todo('return 2, 3 for 6');
-	it.todo('return 7 for 7');
-	it.todo('return 2, 2, 2 for 8');
+	it('return 5 for 5', () => {
+		expect(findePrimeFactors(5)).toEqual([5]);
+	});
+	it('return 2, 3 for 6', () => {
+		expect(findePrimeFactors(6)).toEqual([2, 3]);
+	});
+	it('return 7 for 7', () => {
+		expect(findePrimeFactors(7)).toEqual([7]);
+	});
+	it('return 2, 2, 2 for 8', () => {
+		expect(findePrimeFactors(8)).toEqual([2, 2, 2]);
+	});
 	it.todo('return 3, 3 for 9');
 
   it.todo('starts with stack size of 0');
