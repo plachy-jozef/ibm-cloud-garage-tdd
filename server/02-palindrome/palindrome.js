@@ -6,12 +6,3 @@ const isPalindrome = phrase => {
 };
 
 module.exports = { isPalindrome };
-
-
-// var tmp = 'dude';
-// tmp.split(''); // ?
-// tmp.split('').reverse(); // ?
-// const foo = tmp.split('').reverse().join('') // ?
-
-// tmp = 'mom';
-// tmp == tmp.split('').reverse().join('') // ?

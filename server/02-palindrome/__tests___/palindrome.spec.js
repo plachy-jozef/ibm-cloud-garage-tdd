@@ -5,7 +5,7 @@ describe('the palindrome canary spec', () => {
     expect(true).toBe(true);
   });
 
-	describe.only('palindrome', () => {
+	describe('palindrome', () => {
 		it('true for mom', () => {
 			expect(isPalindrome('mom')).toEqual(true);
 		});
