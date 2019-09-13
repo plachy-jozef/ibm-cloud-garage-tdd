@@ -16,8 +16,12 @@ describe('a stack', () => {
 	it('return 2 for 2', () => {
 		expect(findePrimeFactors(2)).toEqual([2]);
 	});
-	it.todo('return 3 for 3');
-	it.todo('return 2, 2 for 4');
+	it('return 3 for 3', () => {
+		expect(findePrimeFactors(3)).toEqual([3]);
+	});
+	it('return 2, 2 for 4', () => {
+		expect(findePrimeFactors(4)).toEqual([2, 2]);
+	});
 	it.todo('return 5 for 5');
 	it.todo('return 2, 3 for 6');
 	it.todo('return 7 for 7');
